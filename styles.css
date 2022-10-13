@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+#backspace {
+    height: 50px;
+    margin-bottom: -10px;
+}
+
+.btn-clear {
+   width: 120px;
+   height: 75px;
+   margin: 18px;
+   font-size: 40px;
+   border-radius: 10px;
+   border: 1px solid black;
+}
+
+.number {
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+
+.number:hover {
+    background-color: lightgreen
+}
+
+.operator {
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.operator:hover {
+    background-color: brown;
+}
+
+.decimal {
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.decimal:hover {
+    background-color: lightblue;
+}
+
+.equal {
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+
+.equal:hover {
+    background-color: orange;
+}
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+
+}
+
+#screen {
+    width: 300px;
+    border: 1px solid black;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+
+.other-rows {
+    margin-left: 70px;
+}
+
+.previous {
+    font-size: 20px;
+}
+
+.current {
+    font-size: 30px;
+}
